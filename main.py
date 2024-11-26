@@ -36,20 +36,3 @@ def get_book_text(path):
 main()
 
 
-
-
-"""
-def letter_sorter(num_letters):
-    list_of_letters = []
-    for letter in num_letters:
-        value = num_letters[letter]
-        list_of_letters.append({letter: value})
-    list_of_letters.sort(reverse=True, key=lambda x: list(x.values())[0])
-    return list_of_letters
-
-def letter_report(sorted_list):
-    for item in sorted_list:  
-        for letter in item:  
-            number = item[letter]  
-            print(f"The '{letter}' character was found {number} times")
-"""
